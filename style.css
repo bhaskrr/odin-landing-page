@@ -62,9 +62,13 @@ nav a{
     font-size: 18px;
 }
 
+.desc button{
+    margin-top: 10px;
+}
+
 button{
     border: 0;
-    padding: 8px 20px;
+    padding: 8px 25px;
     border-radius: 10px;
     cursor: pointer;
     color: white;
@@ -141,4 +145,37 @@ button{
 .author{
     font-weight: bolder;
     text-align: right;
+}
+
+/* Call to action styling starts */
+
+.call-to-action-container{
+    padding: 70px 200px;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: var(--hero-main-header-logo);
+    padding: 50px 150px;
+    background-color: var(--btn-bg);
+}
+
+.call-to-action-text h4, p{
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action-btn button{
+    border: 2px solid var(--hero-main-header-logo);
+}
+
+/* Footer styling starts */
+
+footer{
+    padding: 30px 0;
+    text-align: center;
+    color: var(--hero-main-header-logo);
+    background-color: var(--dark-bg-info-header-quote-text);
 }
