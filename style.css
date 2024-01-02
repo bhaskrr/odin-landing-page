@@ -87,6 +87,10 @@ button{
 
 /* Main styling starts */
 
+.random-info-container{
+    padding-bottom: 50px;
+}
+
 .random-info-heading h2{
     text-align: center;
     font-size: 36px;
@@ -118,4 +122,23 @@ button{
     /* text-align: center; */
     width: 150px;
     margin: 10px auto;
+}
+
+/* Quote div styling starts */
+
+.quote{
+    padding: 60px 520px;
+    background-color: var(--hero-secondary-header-link-quote-bg);
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--dark-bg-info-header-quote-text);
+}
+
+.author{
+    font-weight: bolder;
+    text-align: right;
 }
